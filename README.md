@@ -10,6 +10,10 @@ Extracting Gmail Cookies From Google Captcha
 * Go to the cookies under "https://www.google.com"
 * For each one of those cookies, create an object like the following, inside an array
 
+##This is extremely important:
+Make sure to use secure: true when needed, and httpOnly: true when needed
+You'll see each cookie has that value true or false in chrome
+
 ```
             {
                 "url": "https://www.google.com",
@@ -38,7 +42,8 @@ The complete Array should look like this
                 "name": "fdsd",
                 "value": "gfdg",
                 "path": "/",
-                "secure": true
+                "secure": false,
+                "httpOnly": true
 
             },
                         {
