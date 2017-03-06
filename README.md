@@ -12,10 +12,10 @@ Extracting Gmail Cookies From Google Captcha
 
 ```
             {
-                url: 'https://www.google.com',
-                name: '<cookiename>',
-                value: '<cookievalue>',
-                path: '/',
+                url: "https://www.google.com",
+                name: "<cookiename>",
+                value: "<cookievalue>",
+                path: "/",
                 secure: true
 
             }
@@ -26,26 +26,26 @@ The complete Array should look like this
 ```
 [
             {
-                url: 'https://www.google.com',
-                name: 'abc',
-                value: '123',
-                path: '/',
+                url: "https://www.google.com",
+                name: "abc",
+                value: "123",
+                path: "/",
                 secure: true
 
             },
                         {
-                url: 'https://www.google.com',
-                name: 'fdsd',
-                value: 'gfdg',
-                path: '/',
+                url: "https://www.google.com",
+                name: "fdsd",
+                value: "gfdg",
+                path: "/",
                 secure: true
 
             },
                         {
-                url: 'https://www.google.com',
-                name: 'y56g',
-                value: 'sdffd',
-                path: '/',
+                url: "https://www.google.com",
+                name: "y56g",
+                value: "sdffd",
+                path: "/",
                 secure: true
 
             }
