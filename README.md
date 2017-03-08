@@ -1,11 +1,18 @@
 # captcha-cookies
 Extracting Gmail Cookies From Google Captcha
 
+### Fast Method (using EditThisCookie extension)
+
+Login to gmail, go to Edit This Cookie and click Export
+
+Either keep all cookies or remove ones where the domain isn't ".google.com"
+
+Much easier method
 
 ### Creating a cookie array for splash-party
 
 * Login to GMail
-* Go to an Adidas page with captcha
+* Go to an Adidas page with captcha (or any page on any site with a google captcha)
 * Go into browser developer tools, select "Application", then "Cookies"
 * Go to the cookies under "https://www.google.com"
 * For each one of those cookies, create an object like the following, inside an array
