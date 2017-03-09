@@ -7,7 +7,11 @@ Login to gmail, go to Edit This Cookie and click Export
 
 Either keep all cookies or remove ones where the domain isn't ".google.com"
 
-Much easier method
+To use these cookies you need to edit them:
+
+* Change `domain` to `url`
+* If `secure=true` prefix url with `https://`, if false prefix with `http://`
+* if url starts with `.`, prefix with `www` 
 
 ### Creating a cookie array for splash-party
 
