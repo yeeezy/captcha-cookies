@@ -13,6 +13,14 @@ To use these cookies you need to edit them:
 * If `secure=true` prefix url with `https://`, if false prefix with `http://`
 * if url starts with `.`, prefix with `www` 
 
+## Update: fast method to edit cookies via JSFiddle
+
+* https://jsfiddle.net/jojxumue/3/
+* Export cookies from EditThisCookie
+* Paste into top text box
+* click convert
+* copy bottom text box into gCookies in config
+
 ### Creating a cookie array for splash-party
 
 * Login to GMail
